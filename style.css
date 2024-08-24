@@ -1,0 +1,109 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #77ecd2;
+}
+
+.container {
+    
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; /* Adjust the width to your preference */
+    text-align: center;
+    border: 2px solid black;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+button#add-task-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button#add-task-button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    text-align: center;
+    padding: 12px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+th {
+    background-color: #f8f8f8;
+    color: #555;
+}
+
+.status-button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.todo {
+    background-color: #f08080; /* Light red */
+}
+
+.inprogress {
+    background-color: #fffa90; /* Light yellow */
+}
+
+.complete {
+    background-color: #90ee90; /* Light green */
+}
+
+.edit-icon, .remove-icon {
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.edit-icon {
+    color: #007bff; /* Blue */
+}
+
+.edit-icon:hover {
+    color: #0056b3;
+}
+
+.remove-icon {
+    color: #dc3545; /* Red */
+}
+
+.remove-icon:hover {
+    color: #a71d2a;
+}
